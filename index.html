@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>诺诺个人学习日志</title>
+    <style>
+        body {
+            font-family: "標楷體", "楷体", KaiTi, STKaiti, "华文楷体", SimKai, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f0e6fa;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #6b4e85;
+        }
+        h1 {
+            text-align: center;
+        }
+        .timeline {
+            position: relative;
+            padding-left: 50px;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 20px;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background: #6b4e85;
+        }
+        .event {
+            position: relative;
+            margin-bottom: 30px;
+        }
+        .event::before {
+            content: '';
+            position: absolute;
+            left: -34px;
+            top: 0;
+            width: 16px;
+            height: 16px;
+            border: 2px solid #6b4e85;
+            background: #fff;
+            border-radius: 50%;
+        }
+        .event-date {
+            font-weight: bold;
+            color: #6b4e85;
+            margin-bottom: 10px;
+        }
+        .event-content {
+            background: #f9f4ff;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+        iframe {
+            width: 100%;
+            height: 800px;
+            border: none;
+            margin: 10px 0;
+        }
+        .tool {
+            font-weight: bold;
+            color: #4a3a5a;
+        }
+        .task {
+            font-style: italic;
+            color: #5d4d6d;
+        }
+        pre {
+            background-color: #f0e6fa;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>诺诺之AI学习日志</h1>
+        <div class="timeline">
+            <div class="event">
+                <div class="event-date">2024年8月6日 第一天下午 </div>
+                <div class="event-content">
+                    <h2><span class="tool">豆包AI</span> - <span class="task">作文</span></h2>
+                    <p>一开始尝试写作「告别」主题的文章，采用片段式写法，但每段情节情感表达很奇怪。之后重新调整，写了一篇题为《人生的决定》的文章，内容概要：</p>
+                    <ul>
+                        <li>两千字，起承转合结构</li>
+                        <li>记叙、描写、抒情结合</li>
+                        <li>以"足印"为象征，探讨人生的决定</li>
+                        <li>以转折点为重点</li>
+                        <li>朋友陪伴引导思考过程</li>
+                        <li>回忆往事，最终领悟</li>
+                    </ul>
+                    <p>文章开头："我们人生中走过很多足印，有深浅，有大小。有些足印不只是路边零散的脚印，而是像海中央的灯塔，指引着你前往未来的道路。"</p>
+                    <p>写完后，和朋友一起去海鲜餐厅庆祝。特别感谢阿斌阿豪的妈妈。</p>
+                </div>
+            </div>
+            
+            <div class="event">
+                <div class="event-date">2024年8月7日 第二天上午</div>
+                <div class="event-content">
+                    <h2><span class="tool">蛙蛙写作AI</span> - <span class="task">小说</span></h2>
+                    <p>开始创作历史改编小说，但遇到政治敏感词问题，AI无法生成内容。</p>
+                    
+                    <h2><span class="tool">豆包AI</span> - <span class="task">图片生成</span></h2>
+                    <p>尝试生成东京晴空塔和猫的图片：</p>
+                    <img src="mao.jpg" alt="猫背对着大板1">
+                    <img src="ta.jpg" alt="猫背对着大板2">
+                    <p>但是当尝试将两者结合时，效果不佳。</p>
+                    <img src="hepin.png" alt="猫背对着大板2">
+                    <h2><span class="tool">豆包AI</span> - <span class="task">音乐创作</span></h2>
+                    <p>尝试创作音乐，但对节奏不满意。</p>
+                    <video width="640" height="70" controls>
+                        <source src="挚爱已失 (1).mp4" type="video/mp4"> 
+                    </video>
+                </div>
+            </div>
+            
+            <div class="event">
+                <div class="event-date">2024年8月7日 第二天下午</div>
+                <div class="event-content">
+                    <h2><span class="tool">SunoAI</span> - <span class="task">音乐创作</span></h2>
+                    <p>创作了十首音乐，最终找到一首比较满意的：</p>
+                    <audio controls>
+                        <source src="https://cdn1.suno.ai/337c340c-75cd-484a-84b3-a0ea3999fe38.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    <p>但遇到数量限制，无法继续创作。</p>
+                    
+                    <h2><span class="tool">蛙蛙写作AI</span> - <span class="task">小说</span></h2>
+                    <p>找到了绕过敏感词的方法，开始创作历史小说。从1830年开始写起。</p>
+                    
+                    <h2><span class="tool">豆包AI</span> - <span class="task">图片生成</span></h2>
+                    <p>晚饭后继续尝试生成图片，尝试了多种组合：</p>
+                    <img src="5zhang.png" alt="猫背对着大板2">
+                    <ul>
+                        <li>灰色晴空塔（中间靠左）+ 橘猫</li>
+                        <li>富士山（正中间）</li>
+                        <li>红色东京铁塔（中间靠右）+ 柴犬</li>
+                    </ul>
+                    
+                    <p>最终得到了一些满意的成果：</p>
+                    <img src="manyi.png" alt="生成的图片1"> 
+                    <p>睡前生成的图片最令人满意：</p>
+                    <img src="zuimanyi.png" alt="最满意的图片">
+                </div>
+            </div>
+            
+            <div class="event">
+                <div class="event-date">2024年8月8日 第三天上午</div>
+                <div class="event-content">
+                    <h2><span class="tool">Claude, websim.ai, buildbox, inscode</span> - <span class="task">游戏开发</span></h2>
+                    <p>尝试开发Ghost Munch游戏，游戏规则详细如下：</p>
+                    <pre>
+游戏版面：30x30格
+每关设置：1个机器人，3只鬼
+随机生成障碍物，路宽最大1格，无死胡同
+机器人控制：上下左右键，每秒移动60格
+鬼的移动：每0.5秒移动1格，追踪最短路径
+经验糖果：随机生成，机器人吃掉后攻击力+10
+攻击力设置：
+ - 机器人：1000
+ - 鬼1：1500
+ - 鬼2：2000
+ - 鬼3：3000
+颜色设置：
+ - 机器人：蓝色
+ - 鬼1：橙色
+ - 鬼2：红色
+ - 鬼3：紫色
+ - 糖果：黄色
+关卡设置：
+ - 第1关：鬼攻击力不变
+ - 第2关：鬼攻击力每2秒+1%
+ - 第3关：鬼攻击力每2秒+2%
+ ... 以此类推
+游戏机制：
+ - 机器人攻击力>鬼：鬼变绿色，可被吃掉
+ - 机器人被吃：根据关卡重新开始或游戏结束
+ - 每关开始有5秒倒计时
+ - 当关卡所有鬼消失，进入下一关
+                    </pre>
+                    <p>最终在websim.ai上实现了部分功能：</p>
+                    
+                    <iframe src="https://websim.ai/c/MDqF7PaJw2yaoTi3b" width="100%" height="600" style="height: 600px;"></iframe>
+                </div>
+            </div>
+            
+            <div class="event">
+                <div class="event-date">2024年8月8日 第三天下午</div>
+                <div class="event-content">
+                    <h2><span class="tool">蛙蛙写作AI</span> - <span class="task">小说</span></h2>
+                    <p>继续创作历史小说，目前进展到鸦片战争时期。计划写到2000年。</p>
+                    
+                    <h2><span class="tool">websim.ai</span> - <span class="task">游戏开发</span></h2>
+                    <p>晚餐后继续调整Ghost Munch游戏，但效果不佳。到晚上10点放弃，转而继续写小说。</p>
+                </div>
+            </div>
+            
+            <div class="event">
+                <div class="event-date">2024年8月9日 第四天上午</div>
+                <div class="event-content">
+                    <h2><span class="tool">Word</span> - <span class="task">整理</span></h2>
+                    <p>起床较晚，开始整理学习日志。感叹整理过程耗时较长。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
